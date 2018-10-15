@@ -118,12 +118,12 @@ public class BirthdayCard extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        String name; 
-        name= NameInputTextfield.getText(); 
+        String name;
+        name= NameInputTextfield.getText();
         String Birthday;
-        Birthday= BirthdayInputTextfield.getText(); 
-        
-        OutputText.setText( name + " Birthday is on" + Birthday); 
+        Birthday= BirthdayInputTextfield.getText();
+
+        OutputText.setText( name + " Birthday is on" + Birthday);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
